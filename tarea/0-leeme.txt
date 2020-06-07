@@ -1,0 +1,20 @@
+Contenido:
+
+0-leeme.txt   -> este archivo
+
+Ficheros para la tarea de recuperación ad-hoc:
+
+  efe01.xml     -> fichero de documentos
+  ...
+  efe10.xml     -> fichero de documentos
+  
+  qrels.txt     -> juicios de relevancia
+  topics.xml    -> consultas
+  vacias.txt    -> fichero de palabras vacías
+  
+  
+Para la tarea de clasificación documental deberá extraer los documentos que
+tengan el campo CATEGORY tal como se indica en las pautas del trabajo.
+
+
+
