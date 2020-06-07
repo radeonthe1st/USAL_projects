@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF40DF472420F9BA005AF2D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40DF462420F9BA005AF2D9 /* AppDelegate.swift */; };
+		BF40DF492420F9BA005AF2D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40DF482420F9BA005AF2D9 /* SceneDelegate.swift */; };
+		BF40DF4B2420F9BA005AF2D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40DF4A2420F9BA005AF2D9 /* ViewController.swift */; };
+		BF40DF4E2420F9BA005AF2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF4C2420F9BA005AF2D9 /* Main.storyboard */; };
+		BF40DF502420F9BC005AF2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF4F2420F9BC005AF2D9 /* Assets.xcassets */; };
+		BF40DF532420F9BC005AF2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF512420F9BC005AF2D9 /* LaunchScreen.storyboard */; };
+		BF40DF5E2420F9BC005AF2D9 /* Interaccion_GestualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40DF5D2420F9BC005AF2D9 /* Interaccion_GestualTests.swift */; };
+		BF40DF692420F9BC005AF2D9 /* Interaccion_GestualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40DF682420F9BC005AF2D9 /* Interaccion_GestualUITests.swift */; };
+		BF40DF772420FE4E005AF2D9 /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF762420FE4D005AF2D9 /* bottle.png */; };
+		BF40DF7A2420FE58005AF2D9 /* chipbag.png in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF782420FE58005AF2D9 /* chipbag.png */; };
+		BF40DF7B2420FE58005AF2D9 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = BF40DF792420FE58005AF2D9 /* paper.png */; };
+		BFE804A22459FDB700EC25C9 /* chip_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE8049F2459FDB700EC25C9 /* chip_icon.png */; };
+		BFE804A32459FDB700EC25C9 /* bot_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE804A02459FDB700EC25C9 /* bot_icon.png */; };
+		BFE804A42459FDB700EC25C9 /* pap_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE804A12459FDB700EC25C9 /* pap_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF40DF5A2420F9BC005AF2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF40DF3B2420F9BA005AF2D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF40DF422420F9BA005AF2D9;
+			remoteInfo = "Interaccion Gestual";
+		};
+		BF40DF652420F9BC005AF2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF40DF3B2420F9BA005AF2D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF40DF422420F9BA005AF2D9;
+			remoteInfo = "Interaccion Gestual";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF40DF432420F9BA005AF2D9 /* Interaccion Gestual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interaccion Gestual.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF40DF462420F9BA005AF2D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF40DF482420F9BA005AF2D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF40DF4A2420F9BA005AF2D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF40DF4D2420F9BA005AF2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF40DF4F2420F9BC005AF2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF40DF522420F9BC005AF2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF40DF542420F9BC005AF2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF40DF592420F9BC005AF2D9 /* Interaccion GestualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interaccion GestualTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF40DF5D2420F9BC005AF2D9 /* Interaccion_GestualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaccion_GestualTests.swift; sourceTree = "<group>"; };
+		BF40DF5F2420F9BC005AF2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF40DF642420F9BC005AF2D9 /* Interaccion GestualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interaccion GestualUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF40DF682420F9BC005AF2D9 /* Interaccion_GestualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaccion_GestualUITests.swift; sourceTree = "<group>"; };
+		BF40DF6A2420F9BC005AF2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF40DF762420FE4D005AF2D9 /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottle.png; path = ../bottle.png; sourceTree = "<group>"; };
+		BF40DF782420FE58005AF2D9 /* chipbag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chipbag.png; path = ../chipbag.png; sourceTree = "<group>"; };
+		BF40DF792420FE58005AF2D9 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper.png; path = ../paper.png; sourceTree = "<group>"; };
+		BFE8049F2459FDB700EC25C9 /* chip_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chip_icon.png; path = ../icons/3x/chip_icon.png; sourceTree = "<group>"; };
+		BFE804A02459FDB700EC25C9 /* bot_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bot_icon.png; path = ../icons/3x/bot_icon.png; sourceTree = "<group>"; };
+		BFE804A12459FDB700EC25C9 /* pap_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pap_icon.png; path = ../icons/3x/pap_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF40DF402420F9BA005AF2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF562420F9BC005AF2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF612420F9BC005AF2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF40DF3A2420F9BA005AF2D9 = {
+			isa = PBXGroup;
+			children = (
+				BF40DF452420F9BA005AF2D9 /* Interaccion Gestual */,
+				BF40DF5C2420F9BC005AF2D9 /* Interaccion GestualTests */,
+				BF40DF672420F9BC005AF2D9 /* Interaccion GestualUITests */,
+				BF40DF442420F9BA005AF2D9 /* Products */,
+				BF40DF762420FE4D005AF2D9 /* bottle.png */,
+				BF40DF782420FE58005AF2D9 /* chipbag.png */,
+				BF40DF792420FE58005AF2D9 /* paper.png */,
+				BFE804A02459FDB700EC25C9 /* bot_icon.png */,
+				BFE8049F2459FDB700EC25C9 /* chip_icon.png */,
+				BFE804A12459FDB700EC25C9 /* pap_icon.png */,
+			);
+			sourceTree = "<group>";
+		};
+		BF40DF442420F9BA005AF2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF40DF432420F9BA005AF2D9 /* Interaccion Gestual.app */,
+				BF40DF592420F9BC005AF2D9 /* Interaccion GestualTests.xctest */,
+				BF40DF642420F9BC005AF2D9 /* Interaccion GestualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF40DF452420F9BA005AF2D9 /* Interaccion Gestual */ = {
+			isa = PBXGroup;
+			children = (
+				BF40DF462420F9BA005AF2D9 /* AppDelegate.swift */,
+				BF40DF482420F9BA005AF2D9 /* SceneDelegate.swift */,
+				BF40DF4A2420F9BA005AF2D9 /* ViewController.swift */,
+				BF40DF4C2420F9BA005AF2D9 /* Main.storyboard */,
+				BF40DF4F2420F9BC005AF2D9 /* Assets.xcassets */,
+				BF40DF512420F9BC005AF2D9 /* LaunchScreen.storyboard */,
+				BF40DF542420F9BC005AF2D9 /* Info.plist */,
+			);
+			path = "Interaccion Gestual";
+			sourceTree = "<group>";
+		};
+		BF40DF5C2420F9BC005AF2D9 /* Interaccion GestualTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF40DF5D2420F9BC005AF2D9 /* Interaccion_GestualTests.swift */,
+				BF40DF5F2420F9BC005AF2D9 /* Info.plist */,
+			);
+			path = "Interaccion GestualTests";
+			sourceTree = "<group>";
+		};
+		BF40DF672420F9BC005AF2D9 /* Interaccion GestualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF40DF682420F9BC005AF2D9 /* Interaccion_GestualUITests.swift */,
+				BF40DF6A2420F9BC005AF2D9 /* Info.plist */,
+			);
+			path = "Interaccion GestualUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF40DF422420F9BA005AF2D9 /* Interaccion Gestual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF40DF6D2420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion Gestual" */;
+			buildPhases = (
+				BF40DF3F2420F9BA005AF2D9 /* Sources */,
+				BF40DF402420F9BA005AF2D9 /* Frameworks */,
+				BF40DF412420F9BA005AF2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interaccion Gestual";
+			productName = "Interaccion Gestual";
+			productReference = BF40DF432420F9BA005AF2D9 /* Interaccion Gestual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF40DF582420F9BC005AF2D9 /* Interaccion GestualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF40DF702420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion GestualTests" */;
+			buildPhases = (
+				BF40DF552420F9BC005AF2D9 /* Sources */,
+				BF40DF562420F9BC005AF2D9 /* Frameworks */,
+				BF40DF572420F9BC005AF2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF40DF5B2420F9BC005AF2D9 /* PBXTargetDependency */,
+			);
+			name = "Interaccion GestualTests";
+			productName = "Interaccion GestualTests";
+			productReference = BF40DF592420F9BC005AF2D9 /* Interaccion GestualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF40DF632420F9BC005AF2D9 /* Interaccion GestualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF40DF732420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion GestualUITests" */;
+			buildPhases = (
+				BF40DF602420F9BC005AF2D9 /* Sources */,
+				BF40DF612420F9BC005AF2D9 /* Frameworks */,
+				BF40DF622420F9BC005AF2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF40DF662420F9BC005AF2D9 /* PBXTargetDependency */,
+			);
+			name = "Interaccion GestualUITests";
+			productName = "Interaccion GestualUITests";
+			productReference = BF40DF642420F9BC005AF2D9 /* Interaccion GestualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF40DF3B2420F9BA005AF2D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alberto Botana";
+				TargetAttributes = {
+					BF40DF422420F9BA005AF2D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BF40DF582420F9BC005AF2D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BF40DF422420F9BA005AF2D9;
+					};
+					BF40DF632420F9BC005AF2D9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BF40DF422420F9BA005AF2D9;
+					};
+				};
+			};
+			buildConfigurationList = BF40DF3E2420F9BA005AF2D9 /* Build configuration list for PBXProject "Interaccion Gestual" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF40DF3A2420F9BA005AF2D9;
+			productRefGroup = BF40DF442420F9BA005AF2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF40DF422420F9BA005AF2D9 /* Interaccion Gestual */,
+				BF40DF582420F9BC005AF2D9 /* Interaccion GestualTests */,
+				BF40DF632420F9BC005AF2D9 /* Interaccion GestualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF40DF412420F9BA005AF2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF40DF532420F9BC005AF2D9 /* LaunchScreen.storyboard in Resources */,
+				BF40DF502420F9BC005AF2D9 /* Assets.xcassets in Resources */,
+				BFE804A22459FDB700EC25C9 /* chip_icon.png in Resources */,
+				BFE804A42459FDB700EC25C9 /* pap_icon.png in Resources */,
+				BF40DF7B2420FE58005AF2D9 /* paper.png in Resources */,
+				BFE804A32459FDB700EC25C9 /* bot_icon.png in Resources */,
+				BF40DF4E2420F9BA005AF2D9 /* Main.storyboard in Resources */,
+				BF40DF7A2420FE58005AF2D9 /* chipbag.png in Resources */,
+				BF40DF772420FE4E005AF2D9 /* bottle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF572420F9BC005AF2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF622420F9BC005AF2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF40DF3F2420F9BA005AF2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF40DF4B2420F9BA005AF2D9 /* ViewController.swift in Sources */,
+				BF40DF472420F9BA005AF2D9 /* AppDelegate.swift in Sources */,
+				BF40DF492420F9BA005AF2D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF552420F9BC005AF2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF40DF5E2420F9BC005AF2D9 /* Interaccion_GestualTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40DF602420F9BC005AF2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF40DF692420F9BC005AF2D9 /* Interaccion_GestualUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF40DF5B2420F9BC005AF2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF40DF422420F9BA005AF2D9 /* Interaccion Gestual */;
+			targetProxy = BF40DF5A2420F9BC005AF2D9 /* PBXContainerItemProxy */;
+		};
+		BF40DF662420F9BC005AF2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF40DF422420F9BA005AF2D9 /* Interaccion Gestual */;
+			targetProxy = BF40DF652420F9BC005AF2D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF40DF4C2420F9BA005AF2D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF40DF4D2420F9BA005AF2D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF40DF512420F9BC005AF2D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF40DF522420F9BC005AF2D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF40DF6B2420F9BC005AF2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Re:Ciclo";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF40DF6C2420F9BC005AF2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Re:Ciclo";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF40DF6E2420F9BC005AF2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion Gestual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-Gestual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BF40DF6F2420F9BC005AF2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion Gestual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-Gestual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BF40DF712420F9BC005AF2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion GestualTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-GestualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interaccion Gestual.app/Interaccion Gestual";
+			};
+			name = Debug;
+		};
+		BF40DF722420F9BC005AF2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion GestualTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-GestualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interaccion Gestual.app/Interaccion Gestual";
+			};
+			name = Release;
+		};
+		BF40DF742420F9BC005AF2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion GestualUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-GestualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Interaccion Gestual";
+			};
+			name = Debug;
+		};
+		BF40DF752420F9BC005AF2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Interaccion GestualUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.usal.albertobotana.Interaccion-GestualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Interaccion Gestual";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF40DF3E2420F9BA005AF2D9 /* Build configuration list for PBXProject "Interaccion Gestual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF40DF6B2420F9BC005AF2D9 /* Debug */,
+				BF40DF6C2420F9BC005AF2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF40DF6D2420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion Gestual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF40DF6E2420F9BC005AF2D9 /* Debug */,
+				BF40DF6F2420F9BC005AF2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF40DF702420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion GestualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF40DF712420F9BC005AF2D9 /* Debug */,
+				BF40DF722420F9BC005AF2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF40DF732420F9BC005AF2D9 /* Build configuration list for PBXNativeTarget "Interaccion GestualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF40DF742420F9BC005AF2D9 /* Debug */,
+				BF40DF752420F9BC005AF2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF40DF3B2420F9BA005AF2D9 /* Project object */;
+}
